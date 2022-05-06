@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Nota Promissória</title>
+        <link rel="stylesheet" href="css/style.css"/>
+
+    </head>
+    
+<body>
+    <section class="content">
+        <div class="nota">
+            <h2>Nota Promissória</h2>
+            <form id="formulario">
+                <div>
+                    <label for="qtdPromissoria">Qtd. Promissória:</label><br>
+                    <input type="text" id="qtdPromissoria" name="qtdPromissoria">                    
+                    <label for="valor">Valor:</label><br>
+                    <input type="number" id="valor" name="valor">    
+                    <label for="dtVencimento">1° Vencimento:</label><br>
+                    <input type="date" id="dtVencimento" name="dtVencimento">
+                </div>
+                <div>
+                    <label for="nomeCredor">Nome Credor:</label><br>
+                    <input type="text" id="nomeCredor" name="nomeCredor">
+                    <label for="documentoCredor">CPF ou CNPJ do credor:</label><br>
+                    <input type="number" id="documentoCredor" name="documentoCredor">
+                </div>
+                <div>
+                    <label> <h4>DADOS DO DEVEDOR</h4> </label>
+                    <label for="nomeDevedor">Nome Devedor: </label><br>
+                    <input type="text" id="nomeDevedor" name="nomeDevedor">
+                    <labelt for="documentoDevedor">CPF/CNPJ:</label><br>
+                    <input type="number" id="documentoDevedor" name="documentoDevedor">
+                    <label for="rua">Rua:</label>
+                    <input type="text" id="rua" name="rua">
+                    <label for="pontoReferencia">Ponto de Referência</label>
+                    <input type="text" id="pontoReferencia" name="pontoReferencia">
+                    <label for="numero">Número:</label>
+                    <input type="number" id="numero" name="numero">
+                    <label for="bairro">Bairro:</label> 
+                    <input type="text" id="bairro" name="bairro">
+                    <label for="cidade">Cidade:</label> 
+                    <input type="text" id="cidade" name="cidade">
+                    <label for="estado"> Estado:</label>
+                    <input type="text" id="estado" name="estado">
+                    <label for="cep">CEP</label>
+                    <input type="number" id="cep" name="cep">
+                </div>
+                <div class="confirmacao">
+                    <input id="btnQ1" type="button" value="Gerar Promissória" class="botao">
+                </div>
+                
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

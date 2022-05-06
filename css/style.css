@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #formulario{
+    border-style: groove;
+    border: 2px solid red;
+    border-radius: 5px;
+  }
+  input{
+    height: 50px;
+    width: 70px;
+    background-color: red;
+  }
+  #btnQ1{
+    margin-top: 20px;
+    margin-left: 1080px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    width: 150px;
+  }
